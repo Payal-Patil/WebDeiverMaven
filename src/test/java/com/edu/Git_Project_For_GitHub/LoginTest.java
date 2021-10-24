@@ -17,6 +17,7 @@ public class LoginTest {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Driver\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
+		System.out.println("Lauching Browser");
 		
 	}
 	
